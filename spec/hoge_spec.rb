@@ -1,5 +1,4 @@
-require 'rspec'
-require './lib/hoge'
+require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 
 describe Hoge do
   describe "#test" do
